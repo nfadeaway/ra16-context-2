@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Muli:400,300italic,300,400italic);
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+#root {
+  display: flex;
+  max-width: 1280px;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  align-items: center;
+  /*justify-content: center;*/
+  margin-top: 100px;
+}
+
+/* Global Styles */
+
+html,body {
+  color:#333;
+  font-family:"Work Sans", sans-serif;
+  line-height:1.4;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+
+*,::before,::after {
+  box-sizing:border-box;
+}
+
+:focus {
+  outline:none;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.form {
+  padding: 5px 5px;
+  border: 1px solid #d3d3d3;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 0;
+}
